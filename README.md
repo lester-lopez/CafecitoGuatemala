@@ -21,7 +21,7 @@ Una ves encontrado los archivos procedemos a descargar un emulador en Android Es
 otro método que es la depuración vía cable hacia un dispositivo físico.
 [![3.png](https://i.postimg.cc/N084LQJy/3.png)](https://postimg.cc/Y49gsBwk)
 damos click en Device Manager
-[![4.png](https://i.postimg.cc/pX9JzfcM/4.png)](https://postimg.cc/YhHFwWwd)
+[![4.png](https://i.postimg.cc/7Yfgs4cq/4.png)](https://postimg.cc/qzHhqP4F)
 damos click en Create Device
 [![5.png](https://i.postimg.cc/gJS36jv0/5.png)](https://postimg.cc/KkT16ZpX)
 Elegimos el dispositivo que queremos después siguiente, siguiente esperémonos la instalación 
