@@ -1,8 +1,11 @@
 # CafecitoGuatemala
-proyecto tesis
+[portada.png](https://postimg.cc/DSjwrH3n)
+Proyecto Tesis
 ------------------------
-Como correr el proyecto 
-
+Como Correr El Proyecto 
+------------------------
+Lester Ronaldo López Peralta
+----------------------------
 Como primer paso descargar el IDE Android Estudio desde su plataforma oficial.
 Se adjunta la dirección:
 https://developer.android.com
