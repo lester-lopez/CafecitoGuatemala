@@ -1,6 +1,7 @@
 # CafecitoGuatemala
-[portada.png](https://postimg.cc/DSjwrH3n)
+[![portada.png](https://i.postimg.cc/1zPVQ1Wn/portada.png)](https://postimg.cc/DSjwrH3n)
 Proyecto Tesis
+------------------------
 ------------------------
 Como Correr El Proyecto 
 ------------------------
