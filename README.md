@@ -5,6 +5,7 @@ Como Correr El Proyecto
 ------------------------
 Lester Ronaldo López Peralta
 ----------------------------
+Lenguaje de Programación: Kotlin
 ----------------------------
 Como primer paso descargar el IDE Android Estudio desde su plataforma oficial.
 Se adjunta la dirección:
