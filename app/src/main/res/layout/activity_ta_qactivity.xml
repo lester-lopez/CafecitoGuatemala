@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lrlp.example.cafecito.t_a_qActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Tipos de Abonos Químicos" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Nutrientes necesarios para el café"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nitrógeno:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nitrógeno: Promueve el crecimiento de la planta de café, aumenta el contenido de proteínas y la producción de hojas." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Fósforo:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fósforo: las raíces crecen, los frutos se desarrollan y se forman compuestos vitales de ADN." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Potasio:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potasio: proporciona a las plantas resistencia a las enfermedades, ayuda a la fotosíntesis y mejora la calidad de la semilla." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Principales deficiencias nutritivas del café"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Deficiencia de Nitrógeno:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El proceso comienza con el marchitamiento de las hojas verdes y luego se extiende por toda la planta. El amarillo se desvanece desde la base hasta la punta y desde el centro hasta el margen. Las hojas más viejas se caerán gradualmente, crecerán lentamente y se caerán con facilidad." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Deficiencia de Fósforo:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aparecen manchas amarillas y áreas de necrosis en las hojas, lo que hace que las hojas y las ramas se caigan." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Deficiencia de Potasio:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Márgenes necróticos en hojas de color amarillo verdoso. Puede ocurrir descamación de la piel." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Abonos Químicos" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="NITRO XTEND® + S" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/nitrostend" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Características:" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El nitrógeno es fundamental durante las fases de crecimiento vegetativo activo, permitiendo que las plantas crezcan correctamente. El suministro adecuado de nitrógeno es crítico durante este período cuando se determina la capacidad de producción. El azufre forma parte de un grupo de aminoácidos esenciales que forman parte de la estructura de muchas proteínas." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Beneficios:" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El nitrógeno se fija en este producto para evitar pérdidas por evaporación. Esto permite un mejor uso de los nutrientes, lo que conduce a mayores rendimientos. Como es nitrógeno protegido de la volatilización, no es necesario aplicarlo al suelo." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Recomendaciones de uso:" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recomendado para aplicar en momentos de alto requerimiento de nitrógeno." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Dosis:" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="300 lb/mz  - 190 kg/ha" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="FertiCAFÉ Inicio" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ferticafeinicio" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Características:" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contiene una concentración equilibrada de nutrientes que permiten que la planta crezca rápidamente, formando una planta fuerte para las primeras etapas del ciclo de cultivo. La presencia de micronutrientes en la fórmula contribuye al crecimiento óptimo de la planta." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Beneficios:" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La fuente de nitrógeno en esta fórmula es NITRO XTEND®, que ayuda a prevenir pérdidas por evaporación. La tecnología ELEMENTUM® permite que el boro y el zinc (micronutrientes) en FertiCAFÉ Inicio se distribuyan uniformemente en los fertilizantes, la forma más eficiente de entregar micronutrientes a plantas individuales." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Recomendaciones de uso:" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El abono se debe colocar en forma de media luna en la base del árbol al inicio del cultivo." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Dosis:" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500 lb/mz  -  320 kg/ha" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="FertiCAFÉ Refuerzo" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ferticaferefuerzo" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Característica:" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contiene una concentración equilibrada de nutrientes que favorecen la saciedad y el crecimiento vegetativo. La presencia de micronutrientes en la fórmula contribuye al crecimiento óptimo de la planta." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Beneficios:" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La fuente de nitrógeno en esta fórmula es NITRO XTEND®, que ayuda a prevenir pérdidas por evaporación. La tecnología ELEMENTUM® permite que el boro (un oligoelemento) en FertiCAFÉ Reinforcement se distribuya uniformemente en el fertilizante, la forma más efectiva de entregar oligoelementos a cada planta." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Recomendaciones de uso:" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El fertilizante debe colocarse en forma de media luna en la base de la planta en la etapa de formación y llenado de semillas." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Dosis:" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500 lb/mz  -   320 kg/ha" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="FertiCAFÉ Inicio Huehue" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ferticafeiniciohuehue" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Características:" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contiene una concentración equilibrada de nutrientes que permiten que la planta crezca rápidamente, formando una planta fuerte para las primeras etapas del ciclo de cultivo. La presencia de micronutrientes en la fórmula contribuye al crecimiento óptimo de la planta." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Beneficios:" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La fuente de nitrógeno en esta fórmula es NITRO XTEND®, que ayuda a prevenir pérdidas por evaporación. La tecnología ELEMENTUM® permite que el boro y el zinc (micronutrientes) en FertiCAFÉ Inicio se distribuyan uniformemente en los fertilizantes, la forma más eficiente de entregar micronutrientes a plantas individuales." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Recomendaciones de uso:" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La fuente de nitrógeno en esta fórmula es NITRO XTEND®, que ayuda a prevenir pérdidas por evaporación. La tecnología ELEMENTUM® permite que el boro y el zinc (micronutrientes) en FertiCAFÉ Inicio se distribuyan uniformemente en los fertilizantes, la forma más eficiente de entregar micronutrientes a plantas individuales." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Dosis:" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500 lb/mz  -  320 kg/ha" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="FertiCAFÉ Refuerzo Huehue" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ferticaferefuerzohuehue" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Característica:" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contiene una concentración equilibrada de nutrientes que favorecen la saciedad y el crecimiento vegetativo. La presencia de micronutrientes en la fórmula contribuye al crecimiento óptimo de la planta." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Beneficios:" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La fuente de nitrógeno en esta fórmula es NITRO XTEND®, que ayuda a prevenir pérdidas por evaporación. La tecnología ELEMENTUM® permite que el boro (un oligoelemento) en FertiCAFÉ Reinforcement se distribuya uniformemente en el fertilizante, la forma más eficiente de entregar oligoelementos a cada planta." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Recomendaciones de uso:" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El fertilizante debe colocarse en forma de media luna en la base de la planta en la etapa de formación y llenado de semillas." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Dosis:" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500 lb/mz  -  320 kg/ha" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="FertiCAFÉ Foliar" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/certicafefoliar" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Características:" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FertiCAFÉ foliar es un fertilizante foliar con un alto contenido de fósforo y enriquecido con potasio, calcio, boro, molibdeno y zinc." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Beneficios:" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aporta la energía necesaria durante el periodo de fructificación. El fósforo se absorbe rápidamente. El equilibrio de nutrientes contribuye a un mejor desarrollo de la pared celular, lo que conduce a una mayor calidad de la fruta." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Recomendaciones de uso:" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recomendado para aplicar prefloración." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Dosis:" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 L/mz   -  4.2 L/ha Compatible con la mayoria de los fungicidas e insecticidas aplicados en café. Sin embargo, se recomienda hacer una prueba antes de hacer la mezcla." />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Información extraída de: " />
+
+            <TextView
+
+                android:id="@+id/linkii3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/linkiiii"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/m_t_a_q1button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#F44336"
+                android:text="MENÚ"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/bhome" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

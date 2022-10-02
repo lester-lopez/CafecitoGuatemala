@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lester/Desktop/10mo. Semestre/proyecto tesis/cafecito/app/src/main/res/layout/activity_auth_login.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_auth_login.xml" value="0.25" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_frases1t_cactivity.xml" value="0.17101325352714836" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_frases2t_eactivity.xml" value="0.21" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_frases3t_factivity.xml" value="0.22" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_informacion.xml" value="0.25" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_javaprueba.xml" value="0.17101325352714836" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_ta_nactivity.xml" value="0.33" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_ta_qactivity.xml" value="0.33" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_tcafe.xml" value="0.25" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_tcafe1.xml" value="0.22" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_tcafe2.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_tcafe3.xml" value="0.25" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_te.xml" value="0.33" />
+        <entry key="..\:/Users/Lester/Desktop/10mo.Semestre/proyecto_tesis/cafecito/app/src/main/res/layout/activity_tf.xml" value="0.22" />
+        <entry key="..\:/Users/Lester/Desktop/Respaldo/cafecito/app/src/main/res/layout/activity_auth_login.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/Lester/Desktop/Respaldo/cafecito/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/Lester/Desktop/Respaldo/cafecito/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

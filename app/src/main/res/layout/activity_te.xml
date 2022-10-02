@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lrlp.example.cafecito.t_e_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName20"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="¿Cuáles son las principales enfermedades?"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Hay muchas enfermedades que atacan El cultivo del café es uno de los más populares. encontrado (muerte descendente; Phoma Enfermedad x, pelusa. pellicularia koleroga, Enfermedad de la macana Cerateystis fimbriata, Herida de raíz de Rosellinia), ojos de gallo, Manchas de hierro, antracnosis y óxido. los Enfermedades en las hojas. El café descrito aquí es causada por hongos y su crecimiento directamente afectado Condiciones meteorológicas de la zona y Prácticas agrícolas inadecuadas. enfermedad de la hoja de café Requiere las siguientes condiciones Clima adecuado: baja temperatura, Alta humedad relativa y fuertes lluvias vientos Además, se benefician de Malas prácticas agrícolas como: Desnutrición, granjas viejas, alto densidad de plantación, sombra excesiva, Entre otras cosas." />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/t_e1" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName21"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ENFERMEDAD: Ojo de gallo"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName22"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="SÍNTOMAS:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Manchas redondas hundidas, que evolucionan de color amarillento, a café oscuro y finalmente gris cuando la enfermedad está avanzada.  " />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="CONDICIONES QUE FAVORECEN:" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="- Exceso de sombra - Exceso de lluvia  " />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ojodegallo" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ENFERMEDAD: Mancha de hierro" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="SÍNTOMAS:" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesión de color amarillo en los bordes de la lesión y café en el centro." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="CONDICIONES QUE FAVORECEN:" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="- Exceso de sombra en el  cafetal. - Exceso de lluvia " />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manchadehierro" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ENFERMEDAD: Antracnosis" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="SÍNTOMAS:" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manchas muy marcadas de color café claro a oscuro, tienen un centro grisáceo-blanco y en una fase más avanzada se ponen completamente grises." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="CONDICIONES QUE FAVORECEN:" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="- Exceso de lluvia       - Mala nutrición de la planta                               - Plantaciones viejas, - Alta densidad de plantas                         - Exceso de sombra" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/antracolis" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ENFERMEDAD: Roya" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="SÍNTOMAS:" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="en la cara más bajo hojas y manchas círculo con tamaño de polvo naranja. en el juego más alto mancha de la hoja color sólido amarillento." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="CONDICIONES QUE FAVORECEN:" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="- Exceso de sombra en el cafetal.                        - Densidad alta de plantas.                                - Alta carga de producción en la planta.                                                                  - Mala nutrición de la planta de café.                           - Variedades susceptibles a la roya" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/roya" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="CÓMO EVITAR LAS PLAGAS Y LAS ENFERMEDADES"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La mejor manera de evitar las plagas es un buen manejo agrícola. La selección de variedades, el manejo de la sombra, el uso selectivo de pesticidas y la nutrición de los cultivos son consideraciones importantes. Francisco Quezada Montenegro es ingeniero agrónomo en Dinámica International Crops, productor y exportador de Guatemala. Me dijo que &quot;[las enfermedades pueden] prevenirse... con una buena nutrición&quot;. También dice que una buena nutrición hará que las plantas sean más resistentes, pero también es beneficiosa la aplicación preventiva de un fungicida como el caldo bordelés (un fungicida a base de cobre). “La importancia del cobre es que es el único fungicida que no genera resistencia”, dijo. Además, destacó la importancia de monitorear la temperatura y la humedad “para crear aplicaciones en ubicaciones óptimas para una mayor cobertura”." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Poda e higiene" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se debe desarrollar un plan extenso de gestión de la poda, que incluya la poda al menos cada 5 años. Señala que después de esta edad, se vuelven más susceptibles a la roya. La poda puede dejar heridas desprotegidas en el árbol, que luego son susceptibles a infecciones fúngicas, especialmente durante la temporada de lluvias. Preste atención al control de daños al podar y deshierbar. Además, asegúrese de mantener las herramientas y el equipo limpios para evitar la contaminación cruzada. Las medidas de control de enfermedades de las plantas se denominan medidas fitosanitarias." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Monitoreo" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El monitoreo es una parte esencial para mantener las plantas de café libres de enfermedades y plagas. El seguimiento de plagas y enfermedades a nivel de cultivo ayuda a prevenir brotes de enfermedades y reduce el control químico. Los estándares de monitoreo específicos varían de un país a otro, y los productores deben registrar la floración, así como las tasas y dosis de fertilizantes. También recomienda usar pruebas de suelo para descubrir necesidades nutricionales específicas y para programar y monitorear visualmente fechas específicas de fertilización. Además, Estetia dice que los caficultores necesitan controlar los niveles de sombra, lluvia y humedad. Al considerar estos factores, puede crear un ambiente que invite a las plagas y enfermedades o las mantenga alejadas." />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Información extraída de: " />
+
+            <TextView
+
+                android:id="@+id/linkii2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/linkiii"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/menu_t_e_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#F44336"
+                android:text="MENÚ"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/bhome" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

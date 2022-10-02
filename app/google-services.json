@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986353200090",
+    "project_id": "cafecito-guatemala",
+    "storage_bucket": "cafecito-guatemala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986353200090:android:26f25271a16fcb829aeee3",
+        "android_client_info": {
+          "package_name": "lrlp.example.cafecito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986353200090-9g707kvhh680k1p0nldief2be7vqv7ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZJzMb9YnxLmjLWS1C0CCeUa1YCGGPD1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986353200090-9g707kvhh680k1p0nldief2be7vqv7ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

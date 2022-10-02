@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context="lrlp.example.cafecito.t_cafe_Activity3">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName15"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Tipos de Café"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc1" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Dato extra: De las más de 100 especies correspondientes al género Coffea, solo 2 especies, tienen importancia económica. " />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Café Arábico "
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Es la especie más cultivada en el mundo y aporta alrededor de a 60€ a la producción mundial de café, es una bebida de buena calidad. De las especies del género Café, solo las especies arábica son autopolinizadas, es decir, para decir que sus flores son autopolinizadas, pero todavía es posible un máximo de 9% de polinización cruzada, es decir, la interferencia de granos de polen de las flores de otras plantas." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/cafearabico" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Café Canephora"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="También conocido como Robusta, aporta alrededor de 40% a la producción mundial de café. Produce una bebida de menor calidad que el café arábico. Al igual que otras berenjenas, es diploide, lo que significa que cada célula contiene dos conjuntos de cromosomas, lo que hace un total de 6 cromosomas; por lo tanto, cada flor necesita polen de las flores de otras plantas para la polinización." />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/cafecanephora" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Caturra"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Caturra es una mutación de Bourbón, descubierta en Brasil a principios del siglo 20. En la década de 40 se introdujeron Finca Chocolá, San Pablo Jocopilas, Suchitepéquez; pero, su adopción comercial se realizó varios años después. Es un árbol de tallo corto con una altura promedio de 1,80 metros, fuste principal grueso, entrenudos cortos; el ángulo de la rama joven con respecto al tallo principal es de 45 grados; Su división se caracteriza por entrenudos cortos, con numerosas ramas secundarias que dan a la planta un aspecto compacto." />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc21caturra" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Catuaí"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Es el resultado de realizar una combinación artificial de las variedades Mundo Novo y Caturra, realizado en Brasil. La introducción de Catuaí al país se realizó alrededor de 1970. Se adapta muy bien en rangos de 600 a 1,370 metros sobre el nivel del mar (1,970 a 4,500 pies sobre el nivel mar) en la costa sur y de 1,070 a 1,675 metros sobre el nivel del mar (3,500 a 5,500 pies sobre el nivel del mar) en la zona central, oriental y norte del país. El Catuaí es una variedad de porte bajo, pero un poco más alta que Caturra, con una altura promedio de 2.25 metros, las ramas laterales forman un ángulo cerrado de 45 grados con el tallo principal, con entrenudos cortos. " />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc22catuai" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Pache Común "
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Es un cultivar típico, encontrado en Santa Rosa, Guatemala, en 1949. Es un árbol bajo con una altura promedio de 1.80 m; El crecimiento de las bandas primarias forma un ángulo de 60° con el tallo principal, con buena ramificación de las bandas secundarias, entrenudos cortos y rico follaje. Esta increíble planta se adapta mejor a elevaciones entre 1200 y 1900 metros sobre el nivel del mar (3930 a 6200 pies sobre el nivel del mar) y áreas donde la precipitación varía de 1000 a 2000 milímetros por año. Debido a lo anterior, se han establecido plantaciones de Pache en la región oriente de Guatemala, donde su producción es satisfactoria, sin embargo, la variedad presenta un hábito de producción bienal, lo que significa que hubo una diferencia significativa en dos campañas consecutivas, similar a la variedad madre (típica). Su rendimiento promedio es de 35 quintales de café tostado por metro cúbico (50 quintales por hectárea)." />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc31pachecomun" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Pache Colíns"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Es originaria de Matakisquintla, Jalapa, Guatemala, donde se encuentra en una plantación mixta de Catura y Albach. Debido a su corta altura, se piensa que puede ser el resultado de un cruce natural entre las variedades comunes Pache y Caturra, mediante una recombinación de los dos componentes genéticos del enanismo. Es una planta de porte muy bajo, con altura entre 0.80 a 1.25 metros; característica que le permite resistir a los vientos moderados. Tiene entrenudos muy cortos, las ramas primarias forman un ángulo de 45 grados con el tallo principal, con buena ramificación secundaria y terciaria, lo que incide en su abundante follaje, con hojas de consistencia áspera y forma elíptica, de color verde." />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc32pachecolis" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Pacamara y Maracaturra" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Es una variedad obtenida del cruce entre las variedades Pacas y Maragogipe elaborado en El Salvador. Su descendencia combina características típicas de Pacas, como baja estatura, bajito interior y buen rendimiento, con frutos grandes y hojas de la variedad Maragogipe. Otro equivalente es Maracaturra, un híbrido natural entre Caturra y Maragogipe que ocurre en Nicaragua. Ambos tipos se adaptan mejor al rango de elevación, de 1000 a 1500 metros sobre el nivel del mar (3300 a 4900 pies sobre el nivel del mar), con una precipitación anual de 2000 a 3000 mm." />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc33pacamaraymaracaturra" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="VARIEDAD ARÁBICA DE TAMAÑO BAJO RESISTENTES A LA ENFERMEDAD DE LA ROYA "
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Variedades de Catimor" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName12"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Catimor T-8667" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="La variedad Lempira proviene de Catimor T-8667, seleccionada por el Instituto del Café de Honduras (IHCAFÉ). La variedad Costa Rica 95 también es del mismo origen, aunque fue desarrollada en Costa Rica. Estas variedades se conocen simplemente como Catimor T-8667 debido a su origen. Los estudios organolépticos de la bebida, realizados en los laboratorios de sabor del Instituto Salvadoreño de Investigaciones del Café en El Salvador y del Instituto Hondureño del Café en Honduras, coincidieron en determinar una calidad de taza similar del cultivar Lempira con la de los cultivares Caturra y Catuaí. Además, estudios realizados en los laboratorios del Centro Cooperativo Internacional de Investigación en Desarrollo Agrícola (CIRAD), Montpellier, Francia, sobre la composición química y sensorial de la variedad confirmaron la calidad de la variedad. Variedades de Catura. . , Pasarela y Borbón." />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc348667catimort" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName13"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Catimor T-5175" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Vienen de la descendencia (niños) De Catimor T-5175, seleccionado por IHCAFÉ y IHCAFÉ, la entrevista. Estos artículos También se conocen simplemente Como el Catimor T-5175 en cuanto a sus orígenes. El árbol es bajo, con geometría de hoja moderada Hojas verdes pequeñas y anchas. Cogollos cobrizos oscuros, ramas largas jerga corta, oído Crecer, producir y madurar promedio, buena vitalidad de la planta, Totalmente sensible al tamaño y color. Fruto rojo con bajo índice de frutos Venas, tamaño de grano medio y Bebidas de buena calidad. adaptarse a Altitud por encima de 1000m Nivel del mar (3,280 pies sobre el nivel del mar En el mar)." />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc35catimor_t_5175" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName14"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Catimor T-5269" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="En la década de 1980, Anacafé estableció parcelas de validación de plantas de la(s) progenie(s) de Catimor T-5269 en plantaciones de la región cafetalera del suroeste de Guatemala, buscando generar una variedad con características estables. Se nota buena adaptabilidad a bajas y medias altitudes, alta productividad y taza estándar (muy buena). La planta es corta y compacta, similar a la variedad Catura, con brotes verdes y bronceados. Actualmente existen cafetales con parcelas de este tipo de Catimor." />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtc36catimort5269" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Castillo" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Es de origen colombiano, desarrollado por el Centro Nacional de Investigaciones del Café (Cenicafé). Su desarrollo genético se basó en una estrategia para producir un cultivar con resistencia completa (vertical) e incompleta (horizontal) a los patógenos de la roya (Hemileia Growatrix). Además, tiene muchos genes de resistencia a la enfermedad del fruto del café (Colletotrichum kahawae), que aún está restringida al continente africano, pero es una amenaza potencial para el cultivo del café en la región. Es una planta bajita, algo más alta y con ramas más largas que la variedad Katura, vigorosa y muy productiva. Del cruce entre el cultivar Caturra (progenitor femenino) y el cruce Timor CIFC #1343 (progenitor masculino), se obtuvieron plantas F1 y de allí, por autofecundación, las generaciones F2 y F3." />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtccastillo" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Variedades de Sarchimor" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Parainema" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Esta variedad se originó en Honduras a través del Instituto del Café de Honduras (IHCAFÉ). Deriva de un cruce entre Villa Sarchí 971/10 y CIFC 832/2 Timor Hybrid implementado en 1959 en el Centro de Investigación de la Roya del Café (CIFC), Oeiras, Portugal, donde recibió la designación CIFC H 361. Este cruce se estableció con el objetivo de transferir el gen de resistencia a la roya al grupo Villa Sarchí, que también es fuente de resistencia a los nematodos. Desde 1979, en cooperación con el Programa de Cooperación Regional para el Desarrollo Tecnológico y Modernización del Cultivo del Café en Centroamérica, República Dominicana, Jamaica y Panamá (PROMECAFÉ), el Instituto Hondureño del Café (IHCAFÉ) ha introducido (F2) T-5296 ( IHC 166), seleccionando las cepas T-5296 -170 y T-5296-184, esta última se caracteriza por semillas grandes, buen rendimiento y capacidad de resistir roya y nematodos, permitiendo la selección de varias cepas de quinta generación (F5 ), cuya base genética consiste en las mejores plantas identificadas durante la selección." />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtcparainema" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName16"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Cuscatleco" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="El grupo Cuscatleco se originó en El Salvador, a través de la Fundación Salvadoreña de Investigación del Café (PROCAFÉ). Esta variedad proviene de Sarchimor T-5296 Hybrid, un cruce entre Villa Sarchí 971/10 y CIFC 832/2 Timor Hybrid, creada en 1959 por CIFC, Oeiras, Portugal, donde la llaman CIFC H 361. La Próxima Generación fue evaluada en Brasil y luego presentada por el Centro Agronómico Tropical de Investigación y Enseñanza (CATIE) en América Central. En abril de 1992, a través de PROMECAFÉ, se introdujeron las semillas de seis cepas de Sarchimor de la generación F5 (T-5296, T-16785, T-18137, T-18138, T-18140 y T-18141). .), con el objetivo de realizar experimentos a diferentes altitudes de la región cafetera de El Salvador." />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtcparainema" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName17"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Bourbón" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Las plantas de bourbon, en comparación con los árboles típicos, tienen una forma cónica menos pronunciada, más ramas secundarias, entrenudos más cortos y un mayor número de ejes florales. Las ramas primarias forman un ángulo de 45 grados con el eje principal. Las ramas son verdes, las hojas son más anchas con bordes ondulados, los frutos son más pequeños, un poco más cortos, rojos en su madurez, de excelente calidad. Debido a condiciones fuertes, mejor estructura y más botones florales, el rendimiento es un 20-30% más alto que la variedad típica. Estas características impulsaron a los productores guatemaltecos a cultivarla, reemplazando paulatinamente a las uvas habituales de los años 50 del siglo pasado. El bourbon es una uva que madura muy pronto y corre peligro de perder frutos por la lluvia. Por su crecimiento se distingue por ser una variedad grande (3 m) sensible a los vientos fuertes. También es susceptible a la oxidación. Se cultiva a diferentes altitudes, pero los mejores resultados se obtienen en altitudes medias entre 1.070 y 1.080 metros sobre el nivel del mar (3.500 a 6.500 pies sobre el nivel del mar)." />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtcbourbon" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName18"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Anacafé 14" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Esta variedad es originaria de la región oriente de Guatemala a través de un cruce natural entre Catimor T-5175 y Pacamara. En 1984, el primer retoño (F1), una planta con propiedades especiales de la que se obtuvo la semilla para crear la primera parcela, se apuntó como base para iniciar el desarrollo de esta variedad. Después de muchos ciclos selectivos que duraron más de 30 años, el cultivo se caracteriza por un alto vigor, alto rendimiento, semilla grande, resistencia a la roya, tolerancia a la sequía y buena calidad de taza. La planta es baja, brotes verdes, se desarrollan muchas bandas secundarias (ramas). Fruto grande de forma ovalada (19,03 mm de largo, 15,98 mm de ancho). Con buenas prácticas de manejo rinde de 45 a 55 quintales de pergamino seco por manzana. Según la elaboración de esta variedad, para conseguir una copa perfecta, se debe cortar la fruta madura (vino tinto)." />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtcanacafe14" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName19"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Catucaí" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Es el resultado de un cruce natural entre Icatú y Catuaí con fruta amarilla. En general, los cultivares del grupo Catucaí son algo resistentes a la roya, lo que significa que el árbol puede infectarse, pero sufrir daños moderados, sin mucha defoliación. El árbol tiene alto vigor y rendimiento, altura media, ramificación secundaria alta, entrenudos cortos y brotes verdes o bronceados. En evaluaciones realizadas en la finca Las Flores, Barberina, Santa Rosa, 188 quintales de café maduro por manzana (promedio de 7 cosechas). En 2017 se realizaron 4 catas con una media de 79,31 puntos." />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/limgtccatuai" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Información extraída de: " />
+
+            <TextView
+
+                android:id="@+id/linkii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/linki"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/menu_t_cafe_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#F44336"
+                android:text="MENÚ"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/bhome" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

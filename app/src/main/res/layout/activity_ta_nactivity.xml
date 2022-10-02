@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lrlp.example.cafecito.t_a_nActivity">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editTextTextPersonName50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Tipos de Abonos Orgánicos " />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Gallinaza"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El estiércol de pollo producido en gallineros y descompuesto en granjas se considera un fertilizante de alta calidad. Una vez que tenga un gallinero, puede colocar una capa de 5 cm de aserrín y/o paja de café en el piso del gallinero, después de cuatro a seis meses se recolecta este material, se enriquece con estiércol, se cubre con una capa de plástico y se almacena. durante 30 a 45 días, luego se utiliza como fertilizante. Por otro lado, los excrementos de aves se obtienen de los excrementos de murciélagos, aves marinas, cadáveres de aves muertas y restos de plumas y/o huevos, y sufren un proceso de fermentación lento, pero los fertilizantes de estos desechos se consideran de mayor calidad y más rica en nutrientes. en comparación con el estiércol de pollo. Los excrementos de pájaros deben rociarse a una profundidad aceptable o cubrirse inmediatamente para evitar la pérdida de amoníaco. Se puede mezclar con otros fertilizantes orgánicos para aumentar la mineralización y lograr un mejor efecto. " />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/gallinaza" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Cascara de Plátano" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El compostaje es una opción medioambiental, sostenible y económica para mantener tus plantas sanas. Hay muchas maneras de hacer y utilizar con grandes resultados. Los plátanos o cáscaras de plátano tienen muchos beneficios para nuestras plantas. Su importancia radica en la cantidad de potasio que contiene. Este mineral ayuda a transportar los nutrientes a través de las plantas y favorece la formación de flores y frutos. Por lo general, es fácil saber si una planta tiene deficiencia de potasio. Si las hojas se vuelven amarillas o se rizan, este es el momento de usar este fertilizante." />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/cascaradepltano" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Cáscara de Huevo Triturado" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es una excelente fuente de calcio para las plantas. También mejora el drenaje del suelo. Lo que tienes que hacer es lavar la cáscara y dejar que se seque al sol. Entonces puedes triturarlo fácilmente y listo, tendrás un gran abono para tu jardín. Además, también actúa como elemento disuasorio de plagas como caracoles y babosas." />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/huevotriturado" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Estiércol" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="es un excelente abono orgánico por su alto contenido en nitrógeno y materia orgánica. Se ha utilizado desde la antigüedad para beneficiarse de los desechos del ganado, así como para restaurar los niveles de nutrientes en las tierras de cultivo. Lógicamente, sus propiedades nutricionales dependerán principalmente del tipo de ganado de que se trate." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="¿Qué dosis podemos aplicar de estiércol?" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Por ley, el máximo se fijó en 170 kg N por hectárea. Así lo determina la ley sobre contaminación de aguas con nitratos de origen agrícola. Esto evita dejar un máximo de 50 mg de nitrato en aguas superficiales o subterráneas, ya que valores superiores provocarán graves problemas de salud pública. Para saber la dosis que se puede aplicar, es mejor conocer la dosis agrícola. Es un equilibrio entre el nitrógeno extraído por las plantas durante su ciclo y el nitrógeno presente en el suelo en forma inorgánica o humus y aplicado en el agua de riego. Para equilibrar, añadiremos nitrógeno con fertilizante." />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/estiercol" />
+
+            <Button
+                android:id="@+id/t_a_n_button"
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#F44336"
+
+                android:text="MENÚ"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/bhome" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

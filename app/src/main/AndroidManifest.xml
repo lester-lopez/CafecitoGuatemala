@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cafecito">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cafecito">
+        <activity
+            android:name=".atrasjava"
+            android:exported="false" />
+        <activity
+            android:name=".javaprueba"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.informacion_Activity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.t_a_qActivity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.t_a_nActivity"
+            android:exported="false" />
+        <activity
+            android:name=".frases3t_fActivity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.frases2t_eActivity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.frases1t_cActivity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.t_f_Activity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.t_e_Activity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.t_cafe_Activity3"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="lrlp.example.cafecito.Authlogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lrlp.example.cafecito.t_f_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editTextTextPersonName36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Alto 10 SL" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/alto10logo" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Composición: "
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 Ciproconazol" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Familia Química:"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Triazol" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Descripción "
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es un fungicida de amplio espectro de acción, perteneciente al grupo de los TRAZOLES, preparado en forma de solución hidrosoluble. Clasificados como fungicidas conocidos como inhibidores de la biosíntesis de ergosterol. Después de años de extensa investigación, se ha demostrado que Alto® 10 SL posee una serie de propiedades biológicas únicas. El ciproconazol posee propiedades sistémicas que le permiten brindar un excelente control preventivo y curativo, según la dosis aplicada, sobre una amplia gama de hongos patógenos del orden de los superomicetos, basófilos y micosis." />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/alto10" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Amistar 50 WG" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/amistarextralogo" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Composición: " />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50% Azoxystrobin" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Familia Química:" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estrobilurina" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Descripción " />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amistar® 50 WG es un fungicida sistémico, protector, antibacteriano y anticoagulante que inhibe la respiración mitocondrial, bloquea la transferencia de electrones entre el citocromo b y el citocromo c1, evitando así la formación de ATP." />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/amistar" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Amistar Xtra 28 SC" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/amistarextralogo28c" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Composición: " />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20%Azoxystrobin + 8%Ciproconazol" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Familia Química:" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EstrobilurinaTriazol" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Formulación: " />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suspensión Concentrada (SC)" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Descripción " />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="es un fungicida sistémico, protector y antiinfeccioso con dos modos de acción diferentes: inhibe la respiración mitocondrial, bloquea la transferencia de electrones entre el citocromo b y el citocromo c1, y por lo tanto previene la formación de ATP además . Inhibe la síntesis de ergosterol en hongos." />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/amisextra28c" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Mancuerna Plus 28" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mancuernalogo" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manquerna Plus es un fungicida con efectos protectores, profilácticos y antiinflamatorios. Gracias a la fórmula SE (suspensión) tiene una mayor cobertura y permite que el producto penetre mejor controlando así mejor las enfermedades de tu cultivo, muy eficaz para eliminar las enfermedades del café." />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/marcuerna" />
+
+            <Button
+                android:id="@+id/menu_t_f_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#F44336"
+                android:text="MENÚ"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/bhome" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
