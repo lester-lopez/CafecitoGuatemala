@@ -25,5 +25,6 @@ damos click en Device Manager
 damos click en Create Device
 [![5.png](https://i.postimg.cc/gJS36jv0/5.png)](https://postimg.cc/KkT16ZpX)
 Elegimos el dispositivo que queremos después siguiente, siguiente esperémonos la instalación 
+se agregará el dispositivo a Android Estudio y se puede proceder a ejecutar la App.
+[![6.png](https://i.postimg.cc/5tRbDMJr/6.png)](https://postimg.cc/QB12WwHg)
 
-Después de tener todos estos componentes podemos ejecutar el programa.
